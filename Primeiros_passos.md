@@ -1,16 +1,45 @@
-Comandos Git
+Instalando e configurando o Git e GitHub
 ============
 
-## Versões traduzidas
-- [English version (original)](README.md)
+### Windows
+- Acessar o site do [Git](https://git-scm.com/downloads) para fazer o download do instalador.
+- Clique em "Download for Windows".
+- Execute o instalador baixado e siga as instrução.
+ 
+### Ubuntu
+  - A instalação é via terminal
+  - Abra um terminal e digite
+    ```Git
+    sudo apt-get update
+    sudo apt-get install git
+    ```
+### Verificando se a instalação deu certo 
+```
+git config --list
+```
 
-___
+### Verificando a versão do Git
+```
+git --version
+```
 
-_Uma lista dos comandos Git mais usados_
+### Crinado conta no GitHub
+- Acessar o site do [GitHub](https://github.com/) para fazer o cadastro.
+  
+### Configuração Inicial:
 
-*Se você está interessado em meus aliases do Git, dê uma olhada no meu `.bash_profile`, encontrado aqui: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
+- Após a instalação do Git e criação da conta no GitHub, abra um terminal.
 
---
+- Configure seu nome de usuário e endereço de e-mail:
+
+```
+git config --global user.name "Seu Nome"
+git config --global user.email "seu@email.com"
+```
+
+
+Comandos Git
+============
 
 ### Obtendo & Criação de Projetos
 
