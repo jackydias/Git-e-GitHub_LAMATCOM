@@ -13,17 +13,15 @@ Instalando e configurando o Git e GitHub
     sudo apt-get update
     sudo apt-get install git
     ```
-### Verificando se a instalação deu certo 
-```
-git config --list
-```
+
 
 ### Verificando a versão do Git
+- Abra um terminal e digite...
 ```
 git --version
 ```
 
-### Crinado conta no GitHub
+### Criando conta no GitHub
 - Acessar o site do [GitHub](https://github.com/) para fazer o cadastro.
   
 ### Configuração Inicial:
@@ -33,10 +31,13 @@ git --version
 - Configure seu nome de usuário e endereço de e-mail:
 
 ```
-git config --global user.name "Seu Nome"
+git config --global user.name "seu_nome"
 git config --global user.email "seu@email.com"
 ```
-
+### Verificando se a configuração deu certo 
+```
+git config --list
+```
 
 Comandos Git
 ============
