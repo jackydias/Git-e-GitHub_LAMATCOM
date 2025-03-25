@@ -1,3 +1,4 @@
+# Primeiro dia
 Instalando e configurando o Git e GitHub
 ============
 
@@ -13,7 +14,6 @@ Instalando e configurando o Git e GitHub
     sudo apt-get update
     sudo apt-get install git
     ```
-
 
 ### Verificando a versão do Git
 - Abra um terminal e digite...
@@ -37,6 +37,20 @@ git config --global user.email "seu@email.com"
 ### Verificando se a configuração deu certo 
 ```
 git config --list
+```
+### Clonando um repositório remoto para o computador local
+- Copie o endereço https do repositório
+- Abra o terminal no diretorio onde deseja clonar o repositório e digite
+```
+git clone "cole o endereço_https"
+```
+### Fazendo alterações no repositório
+- Faça alguma alteração em algum arquivo do seu repositório
+- Inclua as alterações digitando
+```
+git add .
+git commit -m "mensagem"
+git push origin main
 ```
 
 Comandos Git
