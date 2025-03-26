@@ -53,6 +53,15 @@ git commit -m "mensagem"
 git push origin main
 ```
 
+### Criando um repositório local
+- Crie o repositório no GitHub com o mesmo nome da pasta criada no computador
+- Crie uma pasta no seu computador e insira seus docs
+- Abra um terminal e digite
+```
+git init
+
+
+
 Comandos Git
 ============
 
