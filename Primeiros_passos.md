@@ -136,3 +136,14 @@ Comandos Git
 | `git log --summary` | Ver modificações (detalhadas) |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
 
+
+
+
+
+
+
+Anna Flávia Azevedo dos Santos
+
+
+
+
