@@ -38,6 +38,12 @@ git config --global user.email "seu@email.com"
 ```
 git config --list
 ```
+
+### Fazendo fork de um repositório 
+- Acesse o repositório original e click na opção 'fork'
+- Faça uma modificação em qualquer arquivo do repositório, preencha o commit e click na opção 'Pull request'
+- Na tela do 'Pull request' click em 'Create pull requeste'
+
 ### Clonando um repositório remoto para o computador local
 - Copie o endereço https do repositório
 - Abra o terminal no diretorio onde deseja clonar o repositório e digite
@@ -57,8 +63,16 @@ git push origin main
 - Crie o repositório no GitHub com o mesmo nome da pasta criada no computador
 - Crie uma pasta no seu computador e insira seus docs
 - Abra um terminal e digite
+  
 ```
 git init
+git add .
+git commit -m "mensagem"
+git branch -M main
+git branch
+git remote add origin "endereço do repositório"
+git push -u origin main
+```
 
 
 
