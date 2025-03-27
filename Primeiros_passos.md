@@ -142,8 +142,4 @@ Comandos Git
 
 
 
-Anna Flávia Azevedo dos Santos
-
-
-
-
+Jacky Ramires Dias
